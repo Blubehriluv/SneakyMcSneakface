@@ -63,6 +63,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\BeginWalking.cs" />
+    <Compile Include="Assets\Scripts\Movement.cs" />
     <Compile Include="Assets\Scripts\WalkingAnimation.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/taymcken/Documents/GitHub/SneakyMcSneakface/SneakyMSF/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
