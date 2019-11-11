@@ -22,41 +22,34 @@ public class Movement : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.S))
         {
             anim.SetBool("isWalkingFront", true);
-            anim.SetBool("isIdleFront", false);
-            anim.SetBool("isIdleBack", false);
-            anim.SetBool("isIdleSide", false);
         }
 
         if (Input.GetKeyUp(KeyCode.S))
         {
-            anim.SetBool("isIdleFront", true);
             anim.SetBool("isWalkingFront", false);
         }
 
         if (Input.GetKeyDown(KeyCode.W))
         {
             anim.SetBool("isWalkingBack", true);
-            anim.SetBool("isIdleFront", false);
-            anim.SetBool("isIdleBack", false);
-            anim.SetBool("isIdleSide", false);
+
         }
 
         if (Input.GetKeyUp(KeyCode.W))
         {
-            anim.SetBool("isIdleBack", true);
             anim.SetBool("isWalkingBack", false);
         }
-
+        
         if (Input.GetKeyDown(KeyCode.A))
         {
-            anim.SetBool("isWalkingSide", true);
+            anim.SetBool("isWalkingLeft", true);
         }
 
         if (Input.GetKeyUp(KeyCode.A))
         {
-            anim.SetBool("isIdleSide", true);
+            anim.SetBool("isWalkingLeft", false);
         }
-
+        /*
         if (Input.GetKeyDown(KeyCode.D))
         {
             anim.SetBool("isWalkingSide", true);
@@ -65,6 +58,6 @@ public class Movement : MonoBehaviour
         if (Input.GetKeyUp(KeyCode.D))
         {
             anim.SetBool("isIdleSide", true);
-        }
+        }*/
     }
 }
