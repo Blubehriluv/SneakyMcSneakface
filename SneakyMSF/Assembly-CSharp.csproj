@@ -64,7 +64,7 @@
   <ItemGroup>
     <Compile Include="Assets\BeginWalking.cs" />
     <Compile Include="Assets\Scripts\Movement.cs" />
-    <Compile Include="Assets\Scripts\WalkingAnimation.cs" />
+    <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/taymcken/Documents/GitHub/SneakyMcSneakface/SneakyMSF/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
