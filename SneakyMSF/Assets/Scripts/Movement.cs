@@ -49,15 +49,15 @@ public class Movement : MonoBehaviour
         {
             anim.SetBool("isWalkingLeft", false);
         }
-        /*
+
         if (Input.GetKeyDown(KeyCode.D))
         {
-            anim.SetBool("isWalkingSide", true);
+            anim.SetBool("isWalkingRight", true);
         }
 
         if (Input.GetKeyUp(KeyCode.D))
         {
-            anim.SetBool("isIdleSide", true);
-        }*/
+            anim.SetBool("isWalkingRight", false);
+        }
     }
 }
