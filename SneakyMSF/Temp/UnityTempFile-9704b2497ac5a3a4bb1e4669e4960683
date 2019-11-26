@@ -210,6 +210,8 @@
 /define:UNITY_2018_4_OR_NEWER
 /define:UNITY_2019_1_OR_NEWER
 /define:UNITY_2019_2_OR_NEWER
+/define:PLATFORM_ARCH_64
+/define:UNITY_64
 /define:UNITY_INCLUDE_TESTS
 /define:ENABLE_AUDIO
 /define:ENABLE_CACHING
@@ -289,4 +291,4 @@
 /define:CSHARP_7_3_OR_NEWER
 Assets\BeginWalking.cs
 Assets\Scripts\Movement.cs
-Assets\Scripts\WalkingAnimation.cs
+Assets\Scripts\PlayerController.cs
