@@ -8,7 +8,7 @@ public class PlayerController : MonoBehaviour
     public float runSpeed;
     private Rigidbody2D rb;
     private Transform tf;
-    private float angle = 0.0f;
+    //private float angle = 0.0f;
 
     // Start is called before the first frame update
     void Start()
