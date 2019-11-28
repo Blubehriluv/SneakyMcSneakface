@@ -12776,49 +12776,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &2094285960 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6351131327517319686, guid: c2404c2c2a7b2cc4f956621f44388e6b,
-    type: 3}
-  m_PrefabInstance: {fileID: 6351131326104610446}
-  m_PrefabAsset: {fileID: 0}
---- !u!70 &2094285966
-CapsuleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2094285960}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0.0000019073486, y: 0}
-  m_Size: {x: 3.92, y: 6.43}
-  m_Direction: 0
---- !u!50 &2094285967
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2094285960}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!1001 &6351131326104610446
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12830,16 +12787,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Player No Cam 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 6351131326858318590, guid: c2404c2c2a7b2cc4f956621f44388e6b,
-        type: 3}
-      propertyPath: m_TagString
-      value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 6351131327517319686, guid: c2404c2c2a7b2cc4f956621f44388e6b,
-        type: 3}
-      propertyPath: m_TagString
-      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 6351131326858318591, guid: c2404c2c2a7b2cc4f956621f44388e6b,
         type: 3}
@@ -12895,21 +12842,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5918863008430105497, guid: c2404c2c2a7b2cc4f956621f44388e6b,
-        type: 3}
-      propertyPath: speed
-      value: 0.075
-      objectReference: {fileID: 0}
-    - target: {fileID: 5918863008430105497, guid: c2404c2c2a7b2cc4f956621f44388e6b,
-        type: 3}
-      propertyPath: runSpeed
-      value: 0.15
-      objectReference: {fileID: 0}
-    - target: {fileID: 6351131327517319682, guid: c2404c2c2a7b2cc4f956621f44388e6b,
-        type: 3}
-      propertyPath: m_SortingOrder
-      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c2404c2c2a7b2cc4f956621f44388e6b, type: 3}
