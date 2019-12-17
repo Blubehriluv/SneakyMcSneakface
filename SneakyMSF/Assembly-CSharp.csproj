@@ -62,7 +62,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Movement.cs" />
+    <Compile Include="Assets\Scripts\Enemy2.cs" />
+    <Compile Include="Assets\Scripts\MoreMovement.cs" />
+    <Compile Include="Assets\Scripts\Movement1.cs" />
     <Compile Include="Assets\Scripts\PlayChange.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Reference Include="Unity.Timeline.Editor">
