@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 public class Enemy2 : MonoBehaviour
 {
     public float rotationSpeed;
@@ -32,6 +33,7 @@ public class Enemy2 : MonoBehaviour
             {
                 lineOfSight.colorGradient = redColor;
                 Debug.Log("hit player");
+                SceneManager.LoadScene("GameOver");
             }
         }
 

@@ -63,10 +63,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Enemy2.cs" />
+    <Compile Include="Assets\Scripts\MainMenu.cs" />
     <Compile Include="Assets\Scripts\MoreMovement.cs" />
     <Compile Include="Assets\Scripts\Movement1.cs" />
     <Compile Include="Assets\Scripts\PlayChange.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\QuitGame.cs" />
+    <Compile Include="Assets\Scripts\RetryLevel.cs" />
+    <Compile Include="Assets\Scripts\WinGame.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/taymcken/Documents/GitHub/SneakyMcSneakface/SneakyMSF/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
